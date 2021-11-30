@@ -1,8 +1,8 @@
 const { Sequelize } = require('sequelize');
 const { sequelize } = require('../database/connection');
 
-const Cliente = sequelize.define(
-  'cliente',
+const Client = sequelize.define(
+  'client',
   {
     idCliente: {
       type: Sequelize.INTEGER,
@@ -64,4 +64,4 @@ const Cliente = sequelize.define(
   }
 );
 
-module.exports = Cliente;
+module.exports = Client;
